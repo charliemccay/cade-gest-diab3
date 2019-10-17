@@ -1,0 +1,61 @@
+https://nhs.smilecdr.com/fhir-request/Observation/f3e13b7a-1666-49d1-a4c5-ed9603047161201{
+  "resourceType": "Observation",
+  "id": "f3e13b7a-1666-49d1-a4c5-ed9603047161",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-10-17T05:00:56.323-04:00"
+  },
+  "status": "final",
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/observation-category",
+        "code": "vital-signs",
+        "display": "Vital Signs"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "3141-9",
+        "display": "Weight Measured"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27113001",
+        "display": "Body weight"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/201bf045-0ea5-4332-a7d4-a70065a5d9cd"
+  },
+  "effectiveDateTime": "1924-06-28",
+  "valueQuantity": {
+    "value": 88,
+    "unit": "kg",
+    "system": "http://unitsofmeasure.org",
+    "code": "kg"
+  }
+}{
+  "resourceType": "Observation",
+  "id": f3e13b7a-1666-49d1-a4c5-ed9603047161,
+  "status": "final",
+  "category": {"coding": [{"system": "http://hl7.org/fhir/observation-category", "code": "vital-signs", "display": "Vital Signs"}]},
+  "code": {'coding': [
+    {"system": "http://loinc.org", "code": '3141-9', "display": 'Weight Measured' },
+    {'system': 'http://snomed.info/sct', 'code':  '27113001' , 'display':  'Body weight' }
+    ]},
+  "subject": {
+    "reference": "Patient/201bf045-0ea5-4332-a7d4-a70065a5d9cd"
+  },
+  "effectiveDateTime": "1924-06-28",
+  "valueQuantity": {
+    "value": "88",
+    "unit": "kg",
+    "system": "http://unitsofmeasure.org",
+    "code": "kg"
+  }
+}

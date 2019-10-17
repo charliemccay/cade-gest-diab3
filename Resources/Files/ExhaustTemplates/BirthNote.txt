@@ -1,0 +1,7 @@
+{# Date: {{ timestamp }} -#}
+Patient:
+  {{ person.Surname }}, {{ person.GivenName }}
+  ID: {{ person.PersonID }}
+  DOB: {{ person.DOB.strftime('%d/%m/%Y')  }}
+GP:
+  {{ person.GP }}

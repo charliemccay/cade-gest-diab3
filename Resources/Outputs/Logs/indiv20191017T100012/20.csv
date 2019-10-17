@@ -1,0 +1,15 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+72,GestationalDiabetes,GenderDecision,,,,1970-04-23T00:00:00
+72,GestationalDiabetes,GenderDecision,,HasFirstChild,True,1970-04-23T00:00:00
+72,GestationalDiabetes,GenderDecision,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 93, 'kg']",1970-04-23T00:00:00
+72,GestationalDiabetes,GenderDecision,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 194, 'cm']",1970-04-23T00:00:00
+72,GestationalDiabetes,GenderDecision,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 24.710383675204593, 'kg/m2']",1970-04-23T00:00:00
+73,GestationalDiabetes,Wait4Conception,,,,1970-04-23T00:00:00
+74,GestationalDiabetes,CheckHasOneChild,,,,1970-04-23T00:00:00
+140,GestationalDiabetes,ConceiveFirstChild,,,,1992-07-13T00:00:00
+141,GestationalDiabetes,WaitToSeeGP,,,,1992-07-13T00:00:00
+142,GestationalDiabetes,GPvisit,,,,1992-07-13T00:00:00
+143,GestationalDiabetes,Wait2SeeMidwife,,,,1992-10-01T00:00:00
+144,GestationalDiabetes,FirstAntenatal,,,,1992-10-01T00:00:00
+148,GestationalDiabetes,Finish,,,,1993-02-04T00:00:00
+149,GestationalDiabetes,Finish,,,,1993-02-04T00:00:00

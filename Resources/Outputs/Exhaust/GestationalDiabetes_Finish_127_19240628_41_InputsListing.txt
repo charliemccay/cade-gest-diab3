@@ -1,0 +1,38 @@
+
+timestamp: 1924_06_28
+activity_time: 1924-06-28
+person: 
+   Area: Radbrook
+   Country: England
+   PersonID: 41
+   Gender: Female
+   DOB: 1957-10-08 00:00:00
+   Surname: Farmer
+   GivenName: Amber
+   School: Radbrook School
+   GP: Radbrook GP
+   Terminal: False
+   GestationalDiabetesStatus: Finish
+   patient_id: 20a8d7f6-68f1-4c75-9c17-1c24140ca818
+   This: {'name': 'obese', 'value': ['414915002', 'obese'], 'date': '1987-04-30T00:00:00', 'id': UUID('344baaad-6a7e-4f3e-a580-da75faa1dbac')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 110, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 172, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 37.182260681449435, 'kg/m2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1957-10-08T00:00:00', 'id': UUID('ca6d8889-f188-4fab-8b2c-442593c9e20d')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 110, 'kg'], 'date': '1957-10-08T00:00:00', 'id': UUID('0a04c3b5-054b-442e-a078-02cf260b1ad4')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 172, 'cm'], 'date': '1957-10-08T00:00:00', 'id': UUID('7497a5ed-1891-43bd-8d91-cafa05237df9')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 37.182260681449435, 'kg/m2'], 'date': '1957-10-08T00:00:00', 'id': UUID('80dc1dfe-e774-4f38-ab79-5d14d165db4e')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1987-04-30T00:00:00', 'id': UUID('bb9bc38f-a37b-4401-8de5-23dd3ac3195d')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '1987-04-30T00:00:00', 'id': UUID('344baaad-6a7e-4f3e-a580-da75faa1dbac')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1957-10-08T00:00:00', 'id': UUID('ca6d8889-f188-4fab-8b2c-442593c9e20d')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 110, 'kg'], 'date': '1957-10-08T00:00:00', 'id': UUID('0a04c3b5-054b-442e-a078-02cf260b1ad4')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 172, 'cm'], 'date': '1957-10-08T00:00:00', 'id': UUID('7497a5ed-1891-43bd-8d91-cafa05237df9')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 37.182260681449435, 'kg/m2'], 'date': '1957-10-08T00:00:00', 'id': UUID('80dc1dfe-e774-4f38-ab79-5d14d165db4e')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1987-04-30T00:00:00', 'id': UUID('bb9bc38f-a37b-4401-8de5-23dd3ac3195d')}
+   obese: {'value': ['414915002', 'obese'], 'date': '1987-04-30T00:00:00', 'id': UUID('344baaad-6a7e-4f3e-a580-da75faa1dbac')}

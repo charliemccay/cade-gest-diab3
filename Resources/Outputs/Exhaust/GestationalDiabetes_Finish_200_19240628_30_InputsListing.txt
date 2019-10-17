@@ -1,0 +1,38 @@
+
+timestamp: 1924_06_28
+activity_time: 1924-06-28
+person: 
+   Area: Monkmoor
+   Country: England
+   PersonID: 30
+   Gender: Female
+   DOB: 1969-11-02 00:00:00
+   Surname: Brady
+   GivenName: Anna
+   School: Monkmoor School
+   GP: Monkmoor GP
+   Terminal: False
+   GestationalDiabetesStatus: Finish
+   patient_id: 60bde722-eaa8-4ee9-ab0f-dadd7458ad80
+   This: {'name': 'overweight', 'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2003-12-03T00:00:00', 'id': UUID('4666c29c-1e28-4e3c-9298-c451063d1a68')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 79, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 164, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.372397382510414, 'kg/m2']
+   HistoryGestationalDiabetes: ['472971004', 'History of gestational diabetes mellitus']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1969-11-02T00:00:00', 'id': UUID('3df4f9b2-f30b-456b-8f14-77f3f65289ef')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 79, 'kg'], 'date': '1969-11-02T00:00:00', 'id': UUID('5702840a-3c80-48c5-b8f3-d76ee8776c5c')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 164, 'cm'], 'date': '1969-11-02T00:00:00', 'id': UUID('850f9d4d-9937-44b8-a19f-fd1480f53e96')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.372397382510414, 'kg/m2'], 'date': '1969-11-02T00:00:00', 'id': UUID('ef13ad89-b23f-4c23-abfd-17c14481251f')}]
+   HistoryGestationalDiabetes: [{'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1969-11-02T00:00:00', 'id': UUID('d415ab15-3b23-403b-bb2d-623c14df7a17')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2003-12-03T00:00:00', 'id': UUID('4666c29c-1e28-4e3c-9298-c451063d1a68')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1969-11-02T00:00:00', 'id': UUID('3df4f9b2-f30b-456b-8f14-77f3f65289ef')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 79, 'kg'], 'date': '1969-11-02T00:00:00', 'id': UUID('5702840a-3c80-48c5-b8f3-d76ee8776c5c')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 164, 'cm'], 'date': '1969-11-02T00:00:00', 'id': UUID('850f9d4d-9937-44b8-a19f-fd1480f53e96')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.372397382510414, 'kg/m2'], 'date': '1969-11-02T00:00:00', 'id': UUID('ef13ad89-b23f-4c23-abfd-17c14481251f')}
+   HistoryGestationalDiabetes: {'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1969-11-02T00:00:00', 'id': UUID('d415ab15-3b23-403b-bb2d-623c14df7a17')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2003-12-03T00:00:00', 'id': UUID('4666c29c-1e28-4e3c-9298-c451063d1a68')}

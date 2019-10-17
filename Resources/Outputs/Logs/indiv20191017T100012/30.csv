@@ -1,0 +1,17 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+69,GestationalDiabetes,GenderDecision,,,,1969-11-02T00:00:00
+69,GestationalDiabetes,GenderDecision,,HasFirstChild,True,1969-11-02T00:00:00
+69,GestationalDiabetes,GenderDecision,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 79, 'kg']",1969-11-02T00:00:00
+69,GestationalDiabetes,GenderDecision,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 164, 'cm']",1969-11-02T00:00:00
+69,GestationalDiabetes,GenderDecision,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.372397382510414, 'kg/m2']",1969-11-02T00:00:00
+69,GestationalDiabetes,GenderDecision,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1969-11-02T00:00:00
+70,GestationalDiabetes,Wait4Conception,,,,1969-11-02T00:00:00
+71,GestationalDiabetes,CheckHasOneChild,,,,1969-11-02T00:00:00
+194,GestationalDiabetes,ConceiveFirstChild,,,,2003-10-02T00:00:00
+195,GestationalDiabetes,WaitToSeeGP,,,,2003-10-02T00:00:00
+196,GestationalDiabetes,GPvisit,,,,2003-10-02T00:00:00
+197,GestationalDiabetes,Wait2SeeMidwife,,,,2003-12-03T00:00:00
+197,GestationalDiabetes,Wait2SeeMidwife,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2003-12-03T00:00:00
+198,GestationalDiabetes,FirstAntenatal,,,,2003-12-03T00:00:00
+199,GestationalDiabetes,Finish,,,,2004-04-18T00:00:00
+200,GestationalDiabetes,Finish,,,,2004-04-18T00:00:00

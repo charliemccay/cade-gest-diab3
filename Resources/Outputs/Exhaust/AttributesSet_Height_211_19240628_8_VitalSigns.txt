@@ -1,0 +1,61 @@
+https://nhs.smilecdr.com/fhir-request/Observation/1fb3bdb0-cf02-479d-bbf4-2ed46cf82f03201{
+  "resourceType": "Observation",
+  "id": "1fb3bdb0-cf02-479d-bbf4-2ed46cf82f03",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-10-17T05:01:52.433-04:00"
+  },
+  "status": "final",
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/observation-category",
+        "code": "vital-signs",
+        "display": "Vital Signs"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8302-2",
+        "display": "Body height"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "50373000",
+        "display": "Body height"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/8297e23a-1f1d-468d-aa9d-aa598d23e58c"
+  },
+  "effectiveDateTime": "1924-06-28",
+  "valueQuantity": {
+    "value": 199,
+    "unit": "cm",
+    "system": "http://unitsofmeasure.org",
+    "code": "cm"
+  }
+}{
+  "resourceType": "Observation",
+  "id": 1fb3bdb0-cf02-479d-bbf4-2ed46cf82f03,
+  "status": "final",
+  "category": {"coding": [{"system": "http://hl7.org/fhir/observation-category", "code": "vital-signs", "display": "Vital Signs"}]},
+  "code": {'coding': [
+    {"system": "http://loinc.org", "code": '8302-2', "display": 'Body height' },
+    {'system': 'http://snomed.info/sct', 'code':  '50373000' , 'display':  'Body height' }
+    ]},
+  "subject": {
+    "reference": "Patient/8297e23a-1f1d-468d-aa9d-aa598d23e58c"
+  },
+  "effectiveDateTime": "1924-06-28",
+  "valueQuantity": {
+    "value": "199",
+    "unit": "cm",
+    "system": "http://unitsofmeasure.org",
+    "code": "cm"
+  }
+}

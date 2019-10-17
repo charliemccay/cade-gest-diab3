@@ -1,0 +1,4 @@
+TriggerPathway,TriggerNode,TriggerEvent,TemplateName,Validation,Destination,id_attr
+GestationalDiabetes,Birth,Start,FHIR_Patient.txt,,Patient/,patient_id
+GestationalDiabetes,Finish,Start,InputsListing.txt,,
+GestationalDiabetes,FirstAntenatal,Start,InputsListing.txt,,

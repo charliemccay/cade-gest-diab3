@@ -1,0 +1,20 @@
+{
+  "resourceType": "Observation",
+  "id": {{ item_id }},
+  "status": "final",
+  "category": {"coding": [{"system": "http://hl7.org/fhir/observation-category", "code": "vital-signs", "display": "Vital Signs"}]},
+  "code": {'coding': [
+    {"system": "http://loinc.org", "code": '{{ person.This.value[0] }}', "display": '{{ person.This.value[1] }}' },
+    {'system': 'http://snomed.info/sct', 'code':  '{{ person.This.value[2] }}' , 'display':  '{{ person.This.value[3] }}' }
+    ]},
+  "subject": {
+    "reference": "Patient/{{ person.patient_id }}"
+  },
+  "effectiveDateTime": "{{ activity_time }}",
+  "valueQuantity": {
+    "value": "{{ person.This.value[4] }}",
+    "unit": "{{ person.This.value[5] }}",
+    "system": "http://unitsofmeasure.org",
+    "code": "{{ person.This.value[5] }}"
+  }
+}

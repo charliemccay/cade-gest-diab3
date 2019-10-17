@@ -1,0 +1,50 @@
+https://nhs.smilecdr.com/fhir-request/Condition/858f5b9b-6e5d-4581-80cc-d8c70f2828bc201{
+  "resourceType": "Condition",
+  "id": "858f5b9b-6e5d-4581-80cc-d8c70f2828bc",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-10-17T05:00:36.198-04:00"
+  },
+  "patient": {
+    "reference": "Patient/2ad9cba3-2c32-4537-9c5a-92b5ce376983"
+  },
+  "dateRecorded": "1924-06-28",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "472971004",
+        "display": "History of gestational diabetes mellitus"
+      }
+    ]
+  },
+  "category": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+        "code": "problem-list-item",
+        "display": "Problem List Item"
+      }
+    ]
+  },
+  "clinicalStatus": "active"
+}{
+  "resourceType": "Condition",
+  "id": '858f5b9b-6e5d-4581-80cc-d8c70f2828bc',
+  "clinicalStatus": "active",
+  "category": [{
+        "coding": [
+        {"system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "problem-list-item", "display": "Problem List Item"}]
+        }],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": '472971004',
+        "display": 'History of gestational diabetes mellitus'
+      }
+    ]
+  },
+  "patient": {"reference":  "Patient/2ad9cba3-2c32-4537-9c5a-92b5ce376983"},
+  'dateRecorded': "1924-06-28"
+}

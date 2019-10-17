@@ -1,0 +1,41 @@
+
+timestamp: 1924_06_28
+activity_time: 1924-06-28
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 17
+   Gender: Female
+   DOB: 1998-08-24 00:00:00
+   Surname: Kirk
+   GivenName: Daisy
+   School: Castlefields School
+   GP: Castlefields GP
+   Terminal: False
+   GestationalDiabetesStatus: FirstAntenatal
+   patient_id: 34d117b4-860e-4014-9e9e-659bd3b9bd47
+   This: {'name': 'obese', 'value': ['414915002', 'obese'], 'date': '2030-12-29T00:00:00', 'id': UUID('8f83e1bb-b8d6-4862-96cb-fdee9730d7ce')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 98, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 180, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.24691358024691, 'kg/m2']
+   BloodGlucose: {'quantity': 5.125973221852156, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1998-08-24T00:00:00', 'id': UUID('65f50e55-ba6d-4e94-b2ff-f1be8720a93a')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 98, 'kg'], 'date': '1998-08-24T00:00:00', 'id': UUID('aaf5ef62-4996-40e2-9e72-32a7309427ad')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 180, 'cm'], 'date': '1998-08-24T00:00:00', 'id': UUID('0dad4565-0703-4dfe-8704-de59df188fa8')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.24691358024691, 'kg/m2'], 'date': '1998-08-24T00:00:00', 'id': UUID('04581b68-81f5-4449-bb77-3732febca096')}]
+   BloodGlucose: [{'value': {'quantity': 5.125973221852156, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2030-12-29T00:00:00', 'id': UUID('c3da3129-8f08-4fd5-8976-d04d6217b6b9')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2030-12-29T00:00:00', 'id': UUID('7d0c857d-13dd-42ac-8af5-96093f2db1c1')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '2030-12-29T00:00:00', 'id': UUID('8f83e1bb-b8d6-4862-96cb-fdee9730d7ce')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1998-08-24T00:00:00', 'id': UUID('65f50e55-ba6d-4e94-b2ff-f1be8720a93a')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 98, 'kg'], 'date': '1998-08-24T00:00:00', 'id': UUID('aaf5ef62-4996-40e2-9e72-32a7309427ad')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 180, 'cm'], 'date': '1998-08-24T00:00:00', 'id': UUID('0dad4565-0703-4dfe-8704-de59df188fa8')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.24691358024691, 'kg/m2'], 'date': '1998-08-24T00:00:00', 'id': UUID('04581b68-81f5-4449-bb77-3732febca096')}
+   BloodGlucose: {'value': {'quantity': 5.125973221852156, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2030-12-29T00:00:00', 'id': UUID('c3da3129-8f08-4fd5-8976-d04d6217b6b9')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2030-12-29T00:00:00', 'id': UUID('7d0c857d-13dd-42ac-8af5-96093f2db1c1')}
+   obese: {'value': ['414915002', 'obese'], 'date': '2030-12-29T00:00:00', 'id': UUID('8f83e1bb-b8d6-4862-96cb-fdee9730d7ce')}

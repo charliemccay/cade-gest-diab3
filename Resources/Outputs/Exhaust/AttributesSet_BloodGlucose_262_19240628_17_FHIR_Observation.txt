@@ -1,0 +1,43 @@
+https://nhs.smilecdr.com/fhir-request/Observation/c3da3129-8f08-4fd5-8976-d04d6217b6b9201{
+  "resourceType": "Observation",
+  "id": "c3da3129-8f08-4fd5-8976-d04d6217b6b9",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-10-17T05:02:02.672-04:00"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1003131000000101",
+        "display": "Serum fasting glucose level"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/34d117b4-860e-4014-9e9e-659bd3b9bd47"
+  },
+  "effectiveDateTime": "1924-06-28",
+  "valueQuantity": {
+    "value": 5.125973221852156,
+    "unit": "mmol/l",
+    "system": "http://unitsofmeasure.org",
+    "code": "mmol/l"
+  }
+}{
+  "resourceType": "Observation",
+  "id": c3da3129-8f08-4fd5-8976-d04d6217b6b9,
+  "status": "final",
+  "code": {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]},
+  "subject": {
+    "reference": "Patient/34d117b4-860e-4014-9e9e-659bd3b9bd47"
+  },
+  "effectiveDateTime": "1924-06-28",
+  "valueQuantity": {
+    "value": "5.125973221852156",
+    "unit": "mmol/l",
+    "system": "http://unitsofmeasure.org",
+    "code": "mmol/l"
+  }
+}

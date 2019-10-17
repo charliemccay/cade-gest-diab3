@@ -1,0 +1,61 @@
+https://nhs.smilecdr.com/fhir-request/Observation/80dc1dfe-e774-4f38-ab79-5d14d165db4e201{
+  "resourceType": "Observation",
+  "id": "80dc1dfe-e774-4f38-ab79-5d14d165db4e",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-10-17T05:00:29.487-04:00"
+  },
+  "status": "final",
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/observation-category",
+        "code": "vital-signs",
+        "display": "Vital Signs"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "39156-5",
+        "display": "Body Mass Index"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "60621009",
+        "display": "Body mass index"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/20a8d7f6-68f1-4c75-9c17-1c24140ca818"
+  },
+  "effectiveDateTime": "1924-06-28",
+  "valueQuantity": {
+    "value": 37.182260681449435,
+    "unit": "kg/m2",
+    "system": "http://unitsofmeasure.org",
+    "code": "kg/m2"
+  }
+}{
+  "resourceType": "Observation",
+  "id": 80dc1dfe-e774-4f38-ab79-5d14d165db4e,
+  "status": "final",
+  "category": {"coding": [{"system": "http://hl7.org/fhir/observation-category", "code": "vital-signs", "display": "Vital Signs"}]},
+  "code": {'coding': [
+    {"system": "http://loinc.org", "code": '39156-5', "display": 'Body Mass Index' },
+    {'system': 'http://snomed.info/sct', 'code':  '60621009' , 'display':  'Body mass index' }
+    ]},
+  "subject": {
+    "reference": "Patient/20a8d7f6-68f1-4c75-9c17-1c24140ca818"
+  },
+  "effectiveDateTime": "1924-06-28",
+  "valueQuantity": {
+    "value": "37.182260681449435",
+    "unit": "kg/m2",
+    "system": "http://unitsofmeasure.org",
+    "code": "kg/m2"
+  }
+}

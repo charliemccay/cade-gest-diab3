@@ -1,0 +1,41 @@
+
+timestamp: 1924_06_28
+activity_time: 1924-06-28
+person: 
+   Area: Radbrook
+   Country: England
+   PersonID: 40
+   Gender: Female
+   DOB: 2017-08-08 00:00:00
+   Surname: Lucas
+   GivenName: Hannah
+   School: Radbrook School
+   GP: Radbrook GP
+   Terminal: False
+   GestationalDiabetesStatus: FirstAntenatal
+   patient_id: c494f21e-329c-4cd1-80d6-8ee4b198ecbd
+   This: {'name': 'obese', 'value': ['414915002', 'obese'], 'date': '2048-12-11T00:00:00', 'id': UUID('bd162e0f-7812-4c34-b176-a32ad557c2e0')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 104, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 171, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 35.56649909373825, 'kg/m2']
+   FamilyHistoryDiabetes: ['430679000', 'Family history of diabetes mellitus type 2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '2017-08-08T00:00:00', 'id': UUID('3c00bda2-dae1-47b8-9fe5-bf092261207f')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 104, 'kg'], 'date': '2017-08-08T00:00:00', 'id': UUID('b3dfed9c-36b2-4f3e-a13f-4f0cbb90ae4a')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 171, 'cm'], 'date': '2017-08-08T00:00:00', 'id': UUID('bb624fc1-e3ca-4e13-a5bd-fc3f36f584dd')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 35.56649909373825, 'kg/m2'], 'date': '2017-08-08T00:00:00', 'id': UUID('cd239b5b-b192-49ff-a1fc-654333363581')}]
+   FamilyHistoryDiabetes: [{'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '2017-08-08T00:00:00', 'id': UUID('5fd4d916-da60-461d-a76c-4790e07722ab')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2048-12-11T00:00:00', 'id': UUID('bb440065-c108-4076-a271-389d90e05dde')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '2048-12-11T00:00:00', 'id': UUID('bd162e0f-7812-4c34-b176-a32ad557c2e0')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '2017-08-08T00:00:00', 'id': UUID('3c00bda2-dae1-47b8-9fe5-bf092261207f')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 104, 'kg'], 'date': '2017-08-08T00:00:00', 'id': UUID('b3dfed9c-36b2-4f3e-a13f-4f0cbb90ae4a')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 171, 'cm'], 'date': '2017-08-08T00:00:00', 'id': UUID('bb624fc1-e3ca-4e13-a5bd-fc3f36f584dd')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 35.56649909373825, 'kg/m2'], 'date': '2017-08-08T00:00:00', 'id': UUID('cd239b5b-b192-49ff-a1fc-654333363581')}
+   FamilyHistoryDiabetes: {'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '2017-08-08T00:00:00', 'id': UUID('5fd4d916-da60-461d-a76c-4790e07722ab')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2048-12-11T00:00:00', 'id': UUID('bb440065-c108-4076-a271-389d90e05dde')}
+   obese: {'value': ['414915002', 'obese'], 'date': '2048-12-11T00:00:00', 'id': UUID('bd162e0f-7812-4c34-b176-a32ad557c2e0')}

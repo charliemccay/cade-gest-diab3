@@ -1,0 +1,44 @@
+
+timestamp: 1924_06_28
+activity_time: 1924-06-28
+person: 
+   Area: Sutton and Reabrook
+   Country: England
+   PersonID: 47
+   Gender: Female
+   DOB: 1924-06-28 00:00:00
+   Surname: Whittaker
+   GivenName: Jasmine
+   School: Reabrook School
+   GP: Sutton GP
+   Terminal: False
+   GestationalDiabetesStatus: Finish
+   patient_id: 59cf3f2a-2c47-4e33-9344-5d5c87224eb2
+   This: {'name': 'obese', 'value': ['414915002', 'obese'], 'date': '1965-11-19T00:00:00', 'id': UUID('d292aad1-5c7c-4b30-9f81-c034ac12bd1a')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 103, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 170, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 35.6401384083045, 'kg/m2']
+   HistoryGestationalDiabetes: ['472971004', 'History of gestational diabetes mellitus']
+   BloodGlucose: {'quantity': 5.090661437967136, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1924-06-28T00:00:00', 'id': UUID('dfac9eab-e88b-46ed-9e6f-be84e892a2a4')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 103, 'kg'], 'date': '1924-06-28T00:00:00', 'id': UUID('355544fb-15c1-4be1-90a9-8b408ce57c7f')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 170, 'cm'], 'date': '1924-06-28T00:00:00', 'id': UUID('43d58a5a-5adb-4b13-8c84-49f4d61e6b86')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 35.6401384083045, 'kg/m2'], 'date': '1924-06-28T00:00:00', 'id': UUID('0cb3f7e2-56df-464e-be18-274f8fddbead')}]
+   HistoryGestationalDiabetes: [{'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1924-06-28T00:00:00', 'id': UUID('8138486d-743f-4f35-987b-374ebf450b74')}]
+   BloodGlucose: [{'value': {'quantity': 5.090661437967136, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1965-11-19T00:00:00', 'id': UUID('55167939-37a3-4696-b3ad-1411e9e07866')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1965-11-19T00:00:00', 'id': UUID('7f14996f-dee2-43eb-92c7-1c1cb7247ca6')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '1965-11-19T00:00:00', 'id': UUID('d292aad1-5c7c-4b30-9f81-c034ac12bd1a')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1924-06-28T00:00:00', 'id': UUID('dfac9eab-e88b-46ed-9e6f-be84e892a2a4')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 103, 'kg'], 'date': '1924-06-28T00:00:00', 'id': UUID('355544fb-15c1-4be1-90a9-8b408ce57c7f')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 170, 'cm'], 'date': '1924-06-28T00:00:00', 'id': UUID('43d58a5a-5adb-4b13-8c84-49f4d61e6b86')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 35.6401384083045, 'kg/m2'], 'date': '1924-06-28T00:00:00', 'id': UUID('0cb3f7e2-56df-464e-be18-274f8fddbead')}
+   HistoryGestationalDiabetes: {'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1924-06-28T00:00:00', 'id': UUID('8138486d-743f-4f35-987b-374ebf450b74')}
+   BloodGlucose: {'value': {'quantity': 5.090661437967136, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1965-11-19T00:00:00', 'id': UUID('55167939-37a3-4696-b3ad-1411e9e07866')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1965-11-19T00:00:00', 'id': UUID('7f14996f-dee2-43eb-92c7-1c1cb7247ca6')}
+   obese: {'value': ['414915002', 'obese'], 'date': '1965-11-19T00:00:00', 'id': UUID('d292aad1-5c7c-4b30-9f81-c034ac12bd1a')}

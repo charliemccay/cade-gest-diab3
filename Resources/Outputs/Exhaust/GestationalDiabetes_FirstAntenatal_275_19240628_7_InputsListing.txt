@@ -1,0 +1,38 @@
+
+timestamp: 1924_06_28
+activity_time: 1924-06-28
+person: 
+   Area: Battlefield
+   Country: England
+   PersonID: 7
+   Gender: Female
+   DOB: 2001-06-16 00:00:00
+   Surname: Burrows
+   GivenName: Zara
+   School: Battlefield School
+   GP: Battlefield GP
+   Terminal: False
+   GestationalDiabetesStatus: FirstAntenatal
+   patient_id: 5eb6d7ac-8c43-49e3-b4eb-73036e0e4fa7
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 4.70639090408614, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2038-02-10T00:00:00', 'id': UUID('a8007190-abc8-41b0-a000-94d4cf949c3b')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 83, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 202, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 20.34114302519361, 'kg/m2']
+   FamilyHistoryDiabetes: ['430679000', 'Family history of diabetes mellitus type 2']
+   BloodGlucose: {'quantity': 4.70639090408614, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '2001-06-16T00:00:00', 'id': UUID('5e6dffad-b4cc-476e-8749-f1b68b1eb669')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 83, 'kg'], 'date': '2001-06-16T00:00:00', 'id': UUID('de2a69ec-f4c8-4b26-916c-b6f230afdd0f')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 202, 'cm'], 'date': '2001-06-16T00:00:00', 'id': UUID('892e7f60-ca1a-4c80-8f25-edf2d5fddd29')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 20.34114302519361, 'kg/m2'], 'date': '2001-06-16T00:00:00', 'id': UUID('4625f451-b604-4529-8d96-c2db26e482f6')}]
+   FamilyHistoryDiabetes: [{'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '2001-06-16T00:00:00', 'id': UUID('6b859ac3-8964-4d6e-8abb-7574169cd774')}]
+   BloodGlucose: [{'value': {'quantity': 4.70639090408614, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2038-02-10T00:00:00', 'id': UUID('a8007190-abc8-41b0-a000-94d4cf949c3b')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '2001-06-16T00:00:00', 'id': UUID('5e6dffad-b4cc-476e-8749-f1b68b1eb669')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 83, 'kg'], 'date': '2001-06-16T00:00:00', 'id': UUID('de2a69ec-f4c8-4b26-916c-b6f230afdd0f')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 202, 'cm'], 'date': '2001-06-16T00:00:00', 'id': UUID('892e7f60-ca1a-4c80-8f25-edf2d5fddd29')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 20.34114302519361, 'kg/m2'], 'date': '2001-06-16T00:00:00', 'id': UUID('4625f451-b604-4529-8d96-c2db26e482f6')}
+   FamilyHistoryDiabetes: {'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '2001-06-16T00:00:00', 'id': UUID('6b859ac3-8964-4d6e-8abb-7574169cd774')}
+   BloodGlucose: {'value': {'quantity': 4.70639090408614, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2038-02-10T00:00:00', 'id': UUID('a8007190-abc8-41b0-a000-94d4cf949c3b')}

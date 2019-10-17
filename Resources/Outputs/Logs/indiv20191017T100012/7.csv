@@ -1,0 +1,17 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+175,GestationalDiabetes,GenderDecision,,,,2001-06-16T00:00:00
+175,GestationalDiabetes,GenderDecision,,HasFirstChild,True,2001-06-16T00:00:00
+175,GestationalDiabetes,GenderDecision,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 83, 'kg']",2001-06-16T00:00:00
+175,GestationalDiabetes,GenderDecision,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 202, 'cm']",2001-06-16T00:00:00
+175,GestationalDiabetes,GenderDecision,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 20.34114302519361, 'kg/m2']",2001-06-16T00:00:00
+175,GestationalDiabetes,GenderDecision,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",2001-06-16T00:00:00
+176,GestationalDiabetes,Wait4Conception,,,,2001-06-16T00:00:00
+177,GestationalDiabetes,CheckHasOneChild,,,,2001-06-16T00:00:00
+270,GestationalDiabetes,ConceiveFirstChild,,,,2037-12-16T00:00:00
+271,GestationalDiabetes,WaitToSeeGP,,,,2037-12-16T00:00:00
+272,GestationalDiabetes,GPvisit,,,,2037-12-16T00:00:00
+273,GestationalDiabetes,Wait2SeeMidwife,,,,2038-02-10T00:00:00
+273,GestationalDiabetes,Wait2SeeMidwife,,BloodGlucose,"{'quantity': 4.70639090408614, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2038-02-10T00:00:00
+274,GestationalDiabetes,FirstAntenatal,,,,2038-02-10T00:00:00
+275,GestationalDiabetes,Finish,,,,2038-06-11T00:00:00
+276,GestationalDiabetes,Finish,,,,2038-06-11T00:00:00
