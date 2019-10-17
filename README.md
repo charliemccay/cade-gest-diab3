@@ -13,6 +13,8 @@ There is a docker-compose file to run the simulation using the following command
 ```
 This will start a hapi fhir dstu2 server and populate it with resources from the CADE simulation 
 
+The FHIR server can be accessed on http://localhost:8080
+
 The FHIR server can be stopped with ctrl-c.  When it is started again it will be empty.  This implementation of CADE uses UUIDs for the resource identifiers, so can be run multiple times without clashing identifiers - every time someone is born they are assumed to be a new person.
 
 The BPMN models can be edited with the Camunda Modelling tool: https://camunda.com/download/modeler/
