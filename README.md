@@ -18,4 +18,5 @@ The FHIR server can be accessed on http://localhost:8080
 The FHIR server can be stopped with ctrl-c.  When it is started again it will be empty.  This implementation of CADE uses UUIDs for the resource identifiers, so can be run multiple times without clashing identifiers - every time someone is born they are assumed to be a new person.
 
 The BPMN models can be edited with the Camunda Modelling tool: https://camunda.com/download/modeler/
+The fhir endpoint can be changed in Resources/config.py.
 
