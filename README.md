@@ -7,7 +7,7 @@ This is a demo Resouces folder for the CADE2 pathway-based simulation tool
 ```sh
 	git clone https://github.com/charliemccay/cade-gest-diab3
 ```
-There is a docker-compose file to run the simulation using the following command:
+There is a docker-compose file to run the simulation using the following command from within the cade-gest-diab3 directory:
 ```sh
 	docker-compose up
 ```
