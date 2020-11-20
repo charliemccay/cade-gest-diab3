@@ -1,0 +1,67 @@
+18:06:59 00001 INFO: Starting...
+18:06:59 00111 INFO: Creating 50 patients.
+18:06:59 00112 INFO: Reading file: FakeNameGeneratorShr.csv.
+18:06:59 00113 INFO: Found name generator file: FakeNameGeneratorShr.csv
+18:06:59 00112 INFO: Reading file: PopulationStatistics.csv.
+18:06:59 00113 INFO: Found domain statistics file: PopulationStatistics.csv
+18:06:59 00112 INFO: Reading file: ShrewsburyStats.csv.
+18:06:59 00113 INFO: Found area statistics file: ShrewsburyStats.csv
+18:06:59 00114 INFO: Dealing with area type: Ward
+18:07:01 00101 INFO: Adding pathway file 'GestationalDiabetes.bpmn' to validation list
+18:07:01 00115 INFO: Files validated for information items. Checking files dependencies...
+18:07:01 00107 INFO: Validating pathways.
+18:07:01 00108 INFO: Importing pathway file Resources/Files/Pathway/BPMN/GestationalDiabetes.bpmn
+18:07:01 00109 INFO: Pathways validated.
+18:07:01 00110 INFO: Importing pathways successful.
+18:07:01 NOTE  person being put onto pathway :45 : GestationalDiabetes
+18:07:03 NOTE  person being put onto pathway :26 : GestationalDiabetes
+18:07:03 NOTE  person being put onto pathway :39 : GestationalDiabetes
+18:07:03 NOTE  person being put onto pathway :41 : GestationalDiabetes
+18:07:04 NOTE  person being put onto pathway :24 : GestationalDiabetes
+18:07:04 NOTE  person being put onto pathway :40 : GestationalDiabetes
+18:07:04 NOTE  person being put onto pathway :47 : GestationalDiabetes
+18:07:05 NOTE  person being put onto pathway :18 : GestationalDiabetes
+18:07:05 NOTE  person being put onto pathway :42 : GestationalDiabetes
+18:07:05 NOTE  person being put onto pathway :8 : GestationalDiabetes
+18:07:05 NOTE  person being put onto pathway :21 : GestationalDiabetes
+18:07:06 NOTE  person being put onto pathway :33 : GestationalDiabetes
+18:07:06 NOTE  person being put onto pathway :3 : GestationalDiabetes
+18:07:06 NOTE  person being put onto pathway :38 : GestationalDiabetes
+18:07:06 NOTE  person being put onto pathway :11 : GestationalDiabetes
+18:07:06 NOTE  person being put onto pathway :44 : GestationalDiabetes
+18:07:07 NOTE  person being put onto pathway :10 : GestationalDiabetes
+18:07:07 NOTE  person being put onto pathway :4 : GestationalDiabetes
+18:07:07 NOTE  person being put onto pathway :2 : GestationalDiabetes
+18:07:07 NOTE  person being put onto pathway :46 : GestationalDiabetes
+18:07:07 NOTE  person being put onto pathway :12 : GestationalDiabetes
+18:07:08 NOTE  person being put onto pathway :14 : GestationalDiabetes
+18:07:08 NOTE  person being put onto pathway :0 : GestationalDiabetes
+18:07:08 NOTE  person being put onto pathway :36 : GestationalDiabetes
+18:07:08 NOTE  person being put onto pathway :28 : GestationalDiabetes
+18:07:08 NOTE  person being put onto pathway :7 : GestationalDiabetes
+18:07:09 NOTE  person being put onto pathway :49 : GestationalDiabetes
+18:07:09 NOTE  person being put onto pathway :16 : GestationalDiabetes
+18:07:09 NOTE  person being put onto pathway :25 : GestationalDiabetes
+18:07:09 NOTE  person being put onto pathway :29 : GestationalDiabetes
+18:07:09 NOTE  person being put onto pathway :13 : GestationalDiabetes
+18:07:10 NOTE  person being put onto pathway :23 : GestationalDiabetes
+18:07:10 NOTE  person being put onto pathway :20 : GestationalDiabetes
+18:07:10 NOTE  person being put onto pathway :17 : GestationalDiabetes
+18:07:10 NOTE  person being put onto pathway :43 : GestationalDiabetes
+18:07:11 NOTE  person being put onto pathway :37 : GestationalDiabetes
+18:07:11 NOTE  person being put onto pathway :31 : GestationalDiabetes
+18:07:11 NOTE  person being put onto pathway :22 : GestationalDiabetes
+18:07:11 NOTE  person being put onto pathway :1 : GestationalDiabetes
+18:07:11 NOTE  person being put onto pathway :27 : GestationalDiabetes
+18:07:11 NOTE  person being put onto pathway :9 : GestationalDiabetes
+18:07:12 NOTE  person being put onto pathway :35 : GestationalDiabetes
+18:07:12 NOTE  person being put onto pathway :15 : GestationalDiabetes
+18:07:12 NOTE  person being put onto pathway :19 : GestationalDiabetes
+18:07:12 NOTE  person being put onto pathway :6 : GestationalDiabetes
+18:07:13 NOTE  person being put onto pathway :30 : GestationalDiabetes
+18:07:13 NOTE  person being put onto pathway :32 : GestationalDiabetes
+18:07:13 NOTE  person being put onto pathway :5 : GestationalDiabetes
+18:07:13 NOTE  person being put onto pathway :50 : GestationalDiabetes
+18:07:13 NOTE  person being put onto pathway :34 : GestationalDiabetes
+18:07:14 NOTE  person being put onto pathway :48 : GestationalDiabetes
+18:07:14 NOTE  Time elapsed: 15 seconds

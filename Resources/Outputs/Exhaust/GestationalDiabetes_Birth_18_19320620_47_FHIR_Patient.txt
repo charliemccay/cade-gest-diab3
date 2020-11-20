@@ -1,0 +1,45 @@
+http://localhost:8080/baseDstu2/Patient/c20ee0a4-f53a-4fc5-9a2d-f27b6eefca17201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">information</td><td>[]</td><td><pre>Successfully created resource &quot;Patient/c20ee0a4-f53a-4fc5-9a2d-f27b6eefca17/_history/1&quot; in 353ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Patient/c20ee0a4-f53a-4fc5-9a2d-f27b6eefca17/_history/1\" in 353ms"
+    }
+  ]
+}  {"resourceType": "Patient",
+          "id": "c20ee0a4-f53a-4fc5-9a2d-f27b6eefca17",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "47",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Griffiths",
+              "given": [
+                "Jasmine"
+              ]
+            }
+          ],
+          "birthDate": "1949-03-27"
+        }

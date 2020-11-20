@@ -1,0 +1,41 @@
+
+timestamp: 1932_06_20
+activity_time: 1932-06-20
+person: 
+   Area: Harlescott
+   Country: England
+   PersonID: 26
+   Gender: Female
+   DOB: 1936-01-17 00:00:00
+   Surname: Griffiths
+   GivenName: Samantha
+   School: Harlescott School
+   GP: Harlescott GP
+   Terminal: False
+   GestationalDiabetesStatus: FirstAntenatal
+   patient_id: 3e03bde9-1193-452c-ae8e-832d06956fc7
+   This: {'name': 'obese', 'value': ['414915002', 'obese'], 'date': '1976-04-16T00:00:00', 'id': UUID('b818b47a-3af8-4898-ad2f-d47daff032b5')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 103, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 172, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 34.81611681990265, 'kg/m2']
+   BloodGlucose: {'quantity': 5.261352069139239, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1936-01-17T00:00:00', 'id': UUID('7f5d8b81-7fd2-4bf2-bbbd-43efa466b94f')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 103, 'kg'], 'date': '1936-01-17T00:00:00', 'id': UUID('9c761fd7-d8a4-42ad-b02b-1ca07495d9c1')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 172, 'cm'], 'date': '1936-01-17T00:00:00', 'id': UUID('c08568af-6996-4fd8-b2c2-227649b15723')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 34.81611681990265, 'kg/m2'], 'date': '1936-01-17T00:00:00', 'id': UUID('a352c558-ca91-4dbd-8beb-db18623a52d9')}]
+   BloodGlucose: [{'value': {'quantity': 5.261352069139239, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1976-04-16T00:00:00', 'id': UUID('21a91628-7744-4bed-9550-568a5bb0f22c')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1976-04-16T00:00:00', 'id': UUID('bac4f395-f1cd-4641-b28e-a90993837d2d')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '1976-04-16T00:00:00', 'id': UUID('b818b47a-3af8-4898-ad2f-d47daff032b5')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1936-01-17T00:00:00', 'id': UUID('7f5d8b81-7fd2-4bf2-bbbd-43efa466b94f')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 103, 'kg'], 'date': '1936-01-17T00:00:00', 'id': UUID('9c761fd7-d8a4-42ad-b02b-1ca07495d9c1')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 172, 'cm'], 'date': '1936-01-17T00:00:00', 'id': UUID('c08568af-6996-4fd8-b2c2-227649b15723')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 34.81611681990265, 'kg/m2'], 'date': '1936-01-17T00:00:00', 'id': UUID('a352c558-ca91-4dbd-8beb-db18623a52d9')}
+   BloodGlucose: {'value': {'quantity': 5.261352069139239, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1976-04-16T00:00:00', 'id': UUID('21a91628-7744-4bed-9550-568a5bb0f22c')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1976-04-16T00:00:00', 'id': UUID('bac4f395-f1cd-4641-b28e-a90993837d2d')}
+   obese: {'value': ['414915002', 'obese'], 'date': '1976-04-16T00:00:00', 'id': UUID('b818b47a-3af8-4898-ad2f-d47daff032b5')}

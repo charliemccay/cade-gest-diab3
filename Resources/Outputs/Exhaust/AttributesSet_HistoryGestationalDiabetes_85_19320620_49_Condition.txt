@@ -1,0 +1,33 @@
+http://localhost:8080/baseDstu2/Condition/4cc9ccf0-e6b5-49ec-84c8-27f866aff1f7201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">information</td><td>[]</td><td><pre>Successfully created resource &quot;Condition/4cc9ccf0-e6b5-49ec-84c8-27f866aff1f7/_history/1&quot; in 10ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Condition/4cc9ccf0-e6b5-49ec-84c8-27f866aff1f7/_history/1\" in 10ms"
+    }
+  ]
+}{
+  "resourceType": "Condition",
+  "id": '4cc9ccf0-e6b5-49ec-84c8-27f866aff1f7',
+  "clinicalStatus": "active",
+  "category": [{
+        "coding": [
+        {"system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "problem-list-item", "display": "Problem List Item"}]
+        }],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": '472971004',
+        "display": 'History of gestational diabetes mellitus'
+      }
+    ]
+  },
+  "patient": {"reference":  "Patient/3b629567-c78a-47a5-bcbb-511030777499"},
+  'dateRecorded': "1932-06-20"
+}

@@ -1,0 +1,33 @@
+http://localhost:8080/baseDstu2/Observation/d49494d9-0839-496c-97de-f947b88fa0a1201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">information</td><td>[]</td><td><pre>Successfully created resource &quot;Observation/d49494d9-0839-496c-97de-f947b88fa0a1/_history/1&quot; in 9ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Observation/d49494d9-0839-496c-97de-f947b88fa0a1/_history/1\" in 9ms"
+    }
+  ]
+}{
+  "resourceType": "Observation",
+  "id": d49494d9-0839-496c-97de-f947b88fa0a1,
+  "status": "final",
+  "category": {"coding": [{"system": "http://hl7.org/fhir/observation-category", "code": "vital-signs", "display": "Vital Signs"}]},
+  "code": {'coding': [
+    {"system": "http://loinc.org", "code": '8302-2', "display": 'Body height' },
+    {'system': 'http://snomed.info/sct', 'code':  '50373000' , 'display':  'Body height' }
+    ]},
+  "subject": {
+    "reference": "Patient/17a474be-cc65-4e80-9f42-44593ecf4831"
+  },
+  "effectiveDateTime": "1932-06-20",
+  "valueQuantity": {
+    "value": "175",
+    "unit": "cm",
+    "system": "http://unitsofmeasure.org",
+    "code": "cm"
+  }
+}

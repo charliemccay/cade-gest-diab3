@@ -1,0 +1,18 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+88,GestationalDiabetes,GenderDecision,,,,1975-11-22T00:00:00
+88,GestationalDiabetes,GenderDecision,,HasFirstChild,True,1975-11-22T00:00:00
+88,GestationalDiabetes,GenderDecision,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 76, 'kg']",1975-11-22T00:00:00
+88,GestationalDiabetes,GenderDecision,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 157, 'cm']",1975-11-22T00:00:00
+88,GestationalDiabetes,GenderDecision,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.832893829364274, 'kg/m2']",1975-11-22T00:00:00
+89,GestationalDiabetes,Wait4Conception,,,,1975-11-22T00:00:00
+90,GestationalDiabetes,CheckHasOneChild,,,,1975-11-22T00:00:00
+168,GestationalDiabetes,ConceiveFirstChild,,,,2003-12-04T00:00:00
+169,GestationalDiabetes,WaitToSeeGP,,,,2003-12-04T00:00:00
+170,GestationalDiabetes,GPvisit,,,,2003-12-04T00:00:00
+171,GestationalDiabetes,Wait2SeeMidwife,,,,2004-02-14T00:00:00
+171,GestationalDiabetes,Wait2SeeMidwife,,BloodGlucose,"{'quantity': 5.307869031414425, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2004-02-14T00:00:00
+171,GestationalDiabetes,Wait2SeeMidwife,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2004-02-14T00:00:00
+171,GestationalDiabetes,Wait2SeeMidwife,,obese,"['414915002', 'obese']",2004-02-14T00:00:00
+172,GestationalDiabetes,FirstAntenatal,,,,2004-02-14T00:00:00
+173,GestationalDiabetes,Finish,,,,2004-06-10T00:00:00
+174,GestationalDiabetes,Finish,,,,2004-06-10T00:00:00

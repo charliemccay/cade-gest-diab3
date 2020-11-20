@@ -1,0 +1,32 @@
+
+timestamp: 1932_06_20
+activity_time: 1932-06-20
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 17
+   Gender: Female
+   DOB: 1990-03-24 00:00:00
+   Surname: Austin
+   GivenName: Alice
+   School: Castlefields School
+   GP: Castlefields GP
+   Terminal: False
+   GestationalDiabetesStatus: FirstAntenatal
+   patient_id: b573f253-7872-491f-9176-3c1a630924b6
+   This: {'name': 'bmi', 'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 16.986580601324956, 'kg/m2'], 'date': '1990-03-24T00:00:00', 'id': UUID('38112e28-d201-4bad-8475-753019842ded')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 70, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 203, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 16.986580601324956, 'kg/m2']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1990-03-24T00:00:00', 'id': UUID('aa39bbe1-74ae-47d6-b8eb-cad6683fb6d1')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 70, 'kg'], 'date': '1990-03-24T00:00:00', 'id': UUID('fa072bbc-d09e-4765-a15c-265fd1cb6463')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 203, 'cm'], 'date': '1990-03-24T00:00:00', 'id': UUID('0c1bf948-1d7c-4f96-8c7a-f113c861f1eb')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 16.986580601324956, 'kg/m2'], 'date': '1990-03-24T00:00:00', 'id': UUID('38112e28-d201-4bad-8475-753019842ded')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1990-03-24T00:00:00', 'id': UUID('aa39bbe1-74ae-47d6-b8eb-cad6683fb6d1')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 70, 'kg'], 'date': '1990-03-24T00:00:00', 'id': UUID('fa072bbc-d09e-4765-a15c-265fd1cb6463')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 203, 'cm'], 'date': '1990-03-24T00:00:00', 'id': UUID('0c1bf948-1d7c-4f96-8c7a-f113c861f1eb')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 16.986580601324956, 'kg/m2'], 'date': '1990-03-24T00:00:00', 'id': UUID('38112e28-d201-4bad-8475-753019842ded')}

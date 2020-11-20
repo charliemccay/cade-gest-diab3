@@ -1,0 +1,33 @@
+http://localhost:8080/baseDstu2/Observation/cad1e3e2-8c02-49bc-a145-6128c75b835b201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">information</td><td>[]</td><td><pre>Successfully created resource &quot;Observation/cad1e3e2-8c02-49bc-a145-6128c75b835b/_history/1&quot; in 12ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Observation/cad1e3e2-8c02-49bc-a145-6128c75b835b/_history/1\" in 12ms"
+    }
+  ]
+}{
+  "resourceType": "Observation",
+  "id": cad1e3e2-8c02-49bc-a145-6128c75b835b,
+  "status": "final",
+  "category": {"coding": [{"system": "http://hl7.org/fhir/observation-category", "code": "vital-signs", "display": "Vital Signs"}]},
+  "code": {'coding': [
+    {"system": "http://loinc.org", "code": '39156-5', "display": 'Body Mass Index' },
+    {'system': 'http://snomed.info/sct', 'code':  '60621009' , 'display':  'Body mass index' }
+    ]},
+  "subject": {
+    "reference": "Patient/82fb017b-ed23-4679-9661-0cefb6f9b9fb"
+  },
+  "effectiveDateTime": "1932-06-20",
+  "valueQuantity": {
+    "value": "15.51246537396122",
+    "unit": "kg/m2",
+    "system": "http://unitsofmeasure.org",
+    "code": "kg/m2"
+  }
+}

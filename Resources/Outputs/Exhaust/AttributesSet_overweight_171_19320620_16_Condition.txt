@@ -1,0 +1,33 @@
+http://localhost:8080/baseDstu2/Condition/0aedd32f-a554-4fac-a365-5b36120a8df0201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">information</td><td>[]</td><td><pre>Successfully created resource &quot;Condition/0aedd32f-a554-4fac-a365-5b36120a8df0/_history/1&quot; in 3ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Condition/0aedd32f-a554-4fac-a365-5b36120a8df0/_history/1\" in 3ms"
+    }
+  ]
+}{
+  "resourceType": "Condition",
+  "id": '0aedd32f-a554-4fac-a365-5b36120a8df0',
+  "clinicalStatus": "active",
+  "category": [{
+        "coding": [
+        {"system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "problem-list-item", "display": "Problem List Item"}]
+        }],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": '162863004',
+        "display": 'Body mass index 25-29 - overweight'
+      }
+    ]
+  },
+  "patient": {"reference":  "Patient/1456675b-cf8f-4b78-a3bd-d7b3ab5f213f"},
+  'dateRecorded': "1932-06-20"
+}

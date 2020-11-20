@@ -1,0 +1,45 @@
+18:07:01 00102 INFO: Converting BPMN pathway GestationalDiabetes.bpmn to json...
+18:07:01 00103 INFO: Initial node created: Birth
+18:07:01 00103 INFO: Simple node created: GenderDecision
+18:07:01 00103 INFO: Simple node created: CheckHasOneChild
+18:07:01 00103 INFO: Simple node created: ConceiveFirstChild
+18:07:01 00103 INFO: Simple node created: GPvisit
+18:07:01 00103 INFO: Simple node created: FirstAntenatal
+18:07:01 00103 INFO: Delay node created: Wait4Conception "Wait for Conception"
+18:07:01 00103 INFO: Delay node created: WaitToSeeGP "Wait to See GP"
+18:07:01 00103 INFO: Delay node created: Wait2SeeMidwife "Wait to see midwife"
+18:07:01 00103 INFO: Terminal node created: Childless
+18:07:01 00103 INFO: Terminal node created: Finish
+18:07:01 00103 INFO: Terminal node created: Male
+18:07:01 00105 INFO: Direct Transition for Birth added: GenderDecision
+18:07:01 00105 INFO: Conditional Transition for GenderDecision added: p['Gender']p['Gender']'Male'Male
+18:07:01 00105 INFO: Conditional Transition for GenderDecision added: p['Gender']p['Gender']'Female'Wait4Conception
+18:07:01 00105 INFO: Direct Transition for Wait4Conception added: CheckHasOneChild
+18:07:01 00105 INFO: Conditional Transition for CheckHasOneChild added: p['HasFirstChild']p['HasFirstChild']TrueConceiveFirstChild
+18:07:01 00105 INFO: Conditional Transition for CheckHasOneChild added: p['HasFirstChild']p['HasFirstChild']FalseChildless
+18:07:01 00105 INFO: Direct Transition for ConceiveFirstChild added: WaitToSeeGP
+18:07:01 00105 INFO: Direct Transition for WaitToSeeGP added: GPvisit
+18:07:01 00105 INFO: Direct Transition for GPvisit added: Wait2SeeMidwife
+18:07:01 00105 INFO: Direct Transition for Wait2SeeMidwife added: FirstAntenatal
+18:07:01 00105 INFO: Direct Transition for FirstAntenatal added: Finish
+18:07:01 NOTE  Looking for attributes from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Adding attribute from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Looking for attributes from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Adding attribute from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Looking for attributes from setAttribute for GestationalDiabetes GPvisit
+18:07:01 NOTE  Adding attribute from setAttribute for GestationalDiabetes GPvisit
+18:07:01 NOTE  Looking for attributes from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Adding attribute from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Looking for attributes from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Adding attribute from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Looking for attributes from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Adding attribute from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Looking for attributes from setAttribute for GestationalDiabetes GPvisit
+18:07:01 NOTE  Adding attribute from setAttribute for GestationalDiabetes GPvisit
+18:07:01 NOTE  Looking for attributes from setAttribute for GestationalDiabetes GPvisit
+18:07:01 NOTE  Adding attribute from setAttribute for GestationalDiabetes GPvisit
+18:07:01 NOTE  Looking for attributes from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Adding attribute from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Looking for attributes from setAttribute for GestationalDiabetes Birth
+18:07:01 NOTE  Adding attribute from setAttribute for GestationalDiabetes Birth
+18:07:01 00106 INFO: Pathway GestationalDiabetes.json has been converted to json successfully.

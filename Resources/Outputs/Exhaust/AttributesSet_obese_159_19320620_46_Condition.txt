@@ -1,0 +1,33 @@
+http://localhost:8080/baseDstu2/Condition/fbb815a5-aef0-4445-be47-2e2e5d2d1258201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">information</td><td>[]</td><td><pre>Successfully created resource &quot;Condition/fbb815a5-aef0-4445-be47-2e2e5d2d1258/_history/1&quot; in 4ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Condition/fbb815a5-aef0-4445-be47-2e2e5d2d1258/_history/1\" in 4ms"
+    }
+  ]
+}{
+  "resourceType": "Condition",
+  "id": 'fbb815a5-aef0-4445-be47-2e2e5d2d1258',
+  "clinicalStatus": "active",
+  "category": [{
+        "coding": [
+        {"system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "problem-list-item", "display": "Problem List Item"}]
+        }],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": '414915002',
+        "display": 'obese'
+      }
+    ]
+  },
+  "patient": {"reference":  "Patient/44c6d780-fe7e-4ddb-b2c4-d782fc5d5561"},
+  'dateRecorded': "1932-06-20"
+}

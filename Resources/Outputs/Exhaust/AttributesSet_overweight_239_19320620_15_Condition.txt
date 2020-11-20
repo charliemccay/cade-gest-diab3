@@ -1,0 +1,33 @@
+http://localhost:8080/baseDstu2/Condition/de5a115c-10cf-48cb-b4d4-8b4d75ed227c201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">information</td><td>[]</td><td><pre>Successfully created resource &quot;Condition/de5a115c-10cf-48cb-b4d4-8b4d75ed227c/_history/1&quot; in 21ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Condition/de5a115c-10cf-48cb-b4d4-8b4d75ed227c/_history/1\" in 21ms"
+    }
+  ]
+}{
+  "resourceType": "Condition",
+  "id": 'de5a115c-10cf-48cb-b4d4-8b4d75ed227c',
+  "clinicalStatus": "active",
+  "category": [{
+        "coding": [
+        {"system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "problem-list-item", "display": "Problem List Item"}]
+        }],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": '162863004',
+        "display": 'Body mass index 25-29 - overweight'
+      }
+    ]
+  },
+  "patient": {"reference":  "Patient/ae74c87b-240b-41dd-ba73-70d5adc1e7d4"},
+  'dateRecorded': "1932-06-20"
+}

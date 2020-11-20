@@ -1,0 +1,41 @@
+
+timestamp: 1932_06_20
+activity_time: 1932-06-20
+person: 
+   Area: Bowbrook
+   Country: England
+   PersonID: 13
+   Gender: Female
+   DOB: 1979-09-26 00:00:00
+   Surname: Pope
+   GivenName: Eloise
+   School: Bowbrook School
+   GP: Bowbrook GP
+   Terminal: False
+   GestationalDiabetesStatus: Finish
+   patient_id: 9fd2abb6-17b5-4fc2-bd4a-7e6635a3799f
+   This: {'name': 'obese', 'value': ['414915002', 'obese'], 'date': '2005-11-09T00:00:00', 'id': UUID('b3f1d1d8-46d0-4633-ac63-78a278248f1c')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 86, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 168, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.470521541950117, 'kg/m2']
+   FamilyHistoryDiabetes: ['430679000', 'Family history of diabetes mellitus type 2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1979-09-26T00:00:00', 'id': UUID('e0ede602-fb53-4b0d-84a1-2adb36feea70')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 86, 'kg'], 'date': '1979-09-26T00:00:00', 'id': UUID('cb2d12d1-f821-4f0d-88ef-de2a1fcdb1ae')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 168, 'cm'], 'date': '1979-09-26T00:00:00', 'id': UUID('2d1666fc-8e7e-417b-be56-132a6194e439')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.470521541950117, 'kg/m2'], 'date': '1979-09-26T00:00:00', 'id': UUID('4e1ccb86-bbe2-4f9d-ba15-c5c6bc774862')}]
+   FamilyHistoryDiabetes: [{'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1979-09-26T00:00:00', 'id': UUID('2fca1b25-97e9-4690-8a98-73902bc3869b')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2005-11-09T00:00:00', 'id': UUID('d78f6c08-0d36-4258-abf4-8bf0583e5978')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '2005-11-09T00:00:00', 'id': UUID('b3f1d1d8-46d0-4633-ac63-78a278248f1c')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1979-09-26T00:00:00', 'id': UUID('e0ede602-fb53-4b0d-84a1-2adb36feea70')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 86, 'kg'], 'date': '1979-09-26T00:00:00', 'id': UUID('cb2d12d1-f821-4f0d-88ef-de2a1fcdb1ae')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 168, 'cm'], 'date': '1979-09-26T00:00:00', 'id': UUID('2d1666fc-8e7e-417b-be56-132a6194e439')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.470521541950117, 'kg/m2'], 'date': '1979-09-26T00:00:00', 'id': UUID('4e1ccb86-bbe2-4f9d-ba15-c5c6bc774862')}
+   FamilyHistoryDiabetes: {'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1979-09-26T00:00:00', 'id': UUID('2fca1b25-97e9-4690-8a98-73902bc3869b')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2005-11-09T00:00:00', 'id': UUID('d78f6c08-0d36-4258-abf4-8bf0583e5978')}
+   obese: {'value': ['414915002', 'obese'], 'date': '2005-11-09T00:00:00', 'id': UUID('b3f1d1d8-46d0-4633-ac63-78a278248f1c')}

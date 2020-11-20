@@ -1,0 +1,29 @@
+http://localhost:8080/baseDstu2/Observation/0232594a-121c-4cd2-9351-13e289e7ed03201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">information</td><td>[]</td><td><pre>Successfully created resource &quot;Observation/0232594a-121c-4cd2-9351-13e289e7ed03/_history/1&quot; in 4ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Observation/0232594a-121c-4cd2-9351-13e289e7ed03/_history/1\" in 4ms"
+    }
+  ]
+}{
+  "resourceType": "Observation",
+  "id": 0232594a-121c-4cd2-9351-13e289e7ed03,
+  "status": "final",
+  "code": {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]},
+  "subject": {
+    "reference": "Patient/c20ee0a4-f53a-4fc5-9a2d-f27b6eefca17"
+  },
+  "effectiveDateTime": "1932-06-20",
+  "valueQuantity": {
+    "value": "4.443818224638134",
+    "unit": "mmol/l",
+    "system": "http://unitsofmeasure.org",
+    "code": "mmol/l"
+  }
+}

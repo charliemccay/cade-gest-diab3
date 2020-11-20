@@ -1,8 +1,0 @@
-EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
-21,GestationalDiabetes,GenderDecision,,,,1946-08-16T00:00:00
-21,GestationalDiabetes,GenderDecision,,HasFirstChild,True,1946-08-16T00:00:00
-21,GestationalDiabetes,GenderDecision,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 64, 'kg']",1946-08-16T00:00:00
-21,GestationalDiabetes,GenderDecision,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 154, 'cm']",1946-08-16T00:00:00
-21,GestationalDiabetes,GenderDecision,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.986001011975038, 'kg/m2']",1946-08-16T00:00:00
-22,GestationalDiabetes,Male,,,,1946-08-16T00:00:00
-23,GestationalDiabetes,Male,,,,1946-08-16T00:00:00

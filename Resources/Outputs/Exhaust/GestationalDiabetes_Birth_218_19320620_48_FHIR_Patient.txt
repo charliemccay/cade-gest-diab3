@@ -1,0 +1,45 @@
+http://localhost:8080/baseDstu2/Patient/370924b4-e6e3-4fba-9df4-8652b9cfb4a9201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">information</td><td>[]</td><td><pre>Successfully created resource &quot;Patient/370924b4-e6e3-4fba-9df4-8652b9cfb4a9/_history/1&quot; in 10ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Patient/370924b4-e6e3-4fba-9df4-8652b9cfb4a9/_history/1\" in 10ms"
+    }
+  ]
+}  {"resourceType": "Patient",
+          "id": "370924b4-e6e3-4fba-9df4-8652b9cfb4a9",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "48",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Frost",
+              "given": [
+                "Billy"
+              ]
+            }
+          ],
+          "birthDate": "2019-10-11"
+        }

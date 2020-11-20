@@ -1,0 +1,33 @@
+http://localhost:8080/baseDstu2/Condition/9225b898-3a5a-4653-ac09-f22c2a997425201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">information</td><td>[]</td><td><pre>Successfully created resource &quot;Condition/9225b898-3a5a-4653-ac09-f22c2a997425/_history/1&quot; in 10ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Condition/9225b898-3a5a-4653-ac09-f22c2a997425/_history/1\" in 10ms"
+    }
+  ]
+}{
+  "resourceType": "Condition",
+  "id": '9225b898-3a5a-4653-ac09-f22c2a997425',
+  "clinicalStatus": "active",
+  "category": [{
+        "coding": [
+        {"system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "problem-list-item", "display": "Problem List Item"}]
+        }],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": '430679000',
+        "display": 'Family history of diabetes mellitus type 2'
+      }
+    ]
+  },
+  "patient": {"reference":  "Patient/82fb017b-ed23-4679-9661-0cefb6f9b9fb"},
+  'dateRecorded': "1932-06-20"
+}

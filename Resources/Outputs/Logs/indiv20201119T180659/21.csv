@@ -1,0 +1,16 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+30,GestationalDiabetes,GenderDecision,,,,1954-01-05T00:00:00
+30,GestationalDiabetes,GenderDecision,,HasFirstChild,True,1954-01-05T00:00:00
+30,GestationalDiabetes,GenderDecision,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 58, 'kg']",1954-01-05T00:00:00
+30,GestationalDiabetes,GenderDecision,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 171, 'cm']",1954-01-05T00:00:00
+30,GestationalDiabetes,GenderDecision,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 19.835162956123252, 'kg/m2']",1954-01-05T00:00:00
+30,GestationalDiabetes,GenderDecision,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1954-01-05T00:00:00
+31,GestationalDiabetes,Wait4Conception,,,,1954-01-05T00:00:00
+32,GestationalDiabetes,CheckHasOneChild,,,,1954-01-05T00:00:00
+103,GestationalDiabetes,ConceiveFirstChild,,,,1978-06-19T00:00:00
+104,GestationalDiabetes,WaitToSeeGP,,,,1978-06-19T00:00:00
+105,GestationalDiabetes,GPvisit,,,,1978-06-19T00:00:00
+109,GestationalDiabetes,Wait2SeeMidwife,,,,1978-08-29T00:00:00
+110,GestationalDiabetes,FirstAntenatal,,,,1978-08-29T00:00:00
+111,GestationalDiabetes,Finish,,,,1978-12-24T00:00:00
+112,GestationalDiabetes,Finish,,,,1978-12-24T00:00:00

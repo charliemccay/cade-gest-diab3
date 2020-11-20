@@ -1,0 +1,13 @@
+18:07:01 00102 INFO: Converting BPMN pathway GestationalDiabetes.bpmn to json...
+18:07:01 20025 ERROR: Simple Node ConceiveFirstChild in GestationalDiabetes.bpmn is not a defined information item.
+18:07:01 20025 ERROR: TerminalNode Finish in GestationalDiabetes.bpmn is not a defined information item.
+18:07:01 20025 ERROR: Attribute Set GestationalDiabetes in GestationalDiabetes is not a defined information item.
+18:07:01 20025 ERROR: Attribute Set GestationalDiabetes in GestationalDiabetes is not a defined information item.
+18:07:01 20025 ERROR: Attribute Set GestationalDiabetes in GestationalDiabetes is not a defined information item.
+18:07:01 20025 ERROR: Attribute Set GestationalDiabetes in GestationalDiabetes is not a defined information item.
+18:07:01 20025 ERROR: Attribute Set GestationalDiabetes in GestationalDiabetes is not a defined information item.
+18:07:01 20025 ERROR: Attribute Set GestationalDiabetes in GestationalDiabetes is not a defined information item.
+18:07:01 20025 ERROR: Attribute Set GestationalDiabetes in GestationalDiabetes is not a defined information item.
+18:07:01 20025 ERROR: Attribute Set GestationalDiabetes in GestationalDiabetes is not a defined information item.
+18:07:01 20025 ERROR: Attribute Set GestationalDiabetes in GestationalDiabetes is not a defined information item.
+18:07:01 20025 ERROR: Attribute Set GestationalDiabetes in GestationalDiabetes is not a defined information item.

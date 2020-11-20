@@ -1,0 +1,9 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+67,GestationalDiabetes,GenderDecision,,,,1969-02-14T00:00:00
+67,GestationalDiabetes,GenderDecision,,HasFirstChild,True,1969-02-14T00:00:00
+67,GestationalDiabetes,GenderDecision,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 57, 'kg']",1969-02-14T00:00:00
+67,GestationalDiabetes,GenderDecision,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 161, 'cm']",1969-02-14T00:00:00
+67,GestationalDiabetes,GenderDecision,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.98989236526368, 'kg/m2']",1969-02-14T00:00:00
+67,GestationalDiabetes,GenderDecision,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1969-02-14T00:00:00
+68,GestationalDiabetes,Male,,,,1969-02-14T00:00:00
+69,GestationalDiabetes,Male,,,,1969-02-14T00:00:00

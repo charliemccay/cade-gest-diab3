@@ -1,0 +1,32 @@
+
+timestamp: 1932_06_20
+activity_time: 1932-06-20
+person: 
+   Area: Meole
+   Country: England
+   PersonID: 29
+   Gender: Female
+   DOB: 1978-07-24 00:00:00
+   Surname: Pollard
+   GivenName: Madison
+   School: Meole School
+   GP: Meole GP
+   Terminal: False
+   GestationalDiabetesStatus: Finish
+   patient_id: 61b2366d-8ba5-4d92-87c6-7d0a3e9e52b0
+   This: {'name': 'bmi', 'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.383941996057334, 'kg/m2'], 'date': '1978-07-24T00:00:00', 'id': UUID('ffccde4b-06d9-4745-bd07-63510b15d902')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 64, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 173, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.383941996057334, 'kg/m2']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1978-07-24T00:00:00', 'id': UUID('d268051f-586a-4c0e-9237-cf68676a1ca6')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 64, 'kg'], 'date': '1978-07-24T00:00:00', 'id': UUID('eb84b1b7-dbc8-4a7c-8216-f68d938b5f39')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 173, 'cm'], 'date': '1978-07-24T00:00:00', 'id': UUID('db750aee-9898-48e4-869e-eff0b677d25f')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.383941996057334, 'kg/m2'], 'date': '1978-07-24T00:00:00', 'id': UUID('ffccde4b-06d9-4745-bd07-63510b15d902')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1978-07-24T00:00:00', 'id': UUID('d268051f-586a-4c0e-9237-cf68676a1ca6')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 64, 'kg'], 'date': '1978-07-24T00:00:00', 'id': UUID('eb84b1b7-dbc8-4a7c-8216-f68d938b5f39')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 173, 'cm'], 'date': '1978-07-24T00:00:00', 'id': UUID('db750aee-9898-48e4-869e-eff0b677d25f')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.383941996057334, 'kg/m2'], 'date': '1978-07-24T00:00:00', 'id': UUID('ffccde4b-06d9-4745-bd07-63510b15d902')}

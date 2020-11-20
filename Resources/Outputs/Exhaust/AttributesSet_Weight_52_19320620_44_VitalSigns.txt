@@ -1,0 +1,33 @@
+http://localhost:8080/baseDstu2/Observation/b65cb452-7e85-4dea-8d80-62d9cf2ca7c4201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">information</td><td>[]</td><td><pre>Successfully created resource &quot;Observation/b65cb452-7e85-4dea-8d80-62d9cf2ca7c4/_history/1&quot; in 6ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Observation/b65cb452-7e85-4dea-8d80-62d9cf2ca7c4/_history/1\" in 6ms"
+    }
+  ]
+}{
+  "resourceType": "Observation",
+  "id": b65cb452-7e85-4dea-8d80-62d9cf2ca7c4,
+  "status": "final",
+  "category": {"coding": [{"system": "http://hl7.org/fhir/observation-category", "code": "vital-signs", "display": "Vital Signs"}]},
+  "code": {'coding': [
+    {"system": "http://loinc.org", "code": '3141-9', "display": 'Weight Measured' },
+    {'system': 'http://snomed.info/sct', 'code':  '27113001' , 'display':  'Body weight' }
+    ]},
+  "subject": {
+    "reference": "Patient/55a5b0e5-20c0-4db7-8344-bcace9fa34e6"
+  },
+  "effectiveDateTime": "1932-06-20",
+  "valueQuantity": {
+    "value": "89",
+    "unit": "kg",
+    "system": "http://unitsofmeasure.org",
+    "code": "kg"
+  }
+}

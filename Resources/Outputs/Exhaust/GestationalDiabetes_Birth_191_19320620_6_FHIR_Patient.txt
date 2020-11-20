@@ -1,0 +1,45 @@
+http://localhost:8080/baseDstu2/Patient/df02b0f4-db7d-45d4-aa71-0c85a1b74064201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">information</td><td>[]</td><td><pre>Successfully created resource &quot;Patient/df02b0f4-db7d-45d4-aa71-0c85a1b74064/_history/1&quot; in 4ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Patient/df02b0f4-db7d-45d4-aa71-0c85a1b74064/_history/1\" in 4ms"
+    }
+  ]
+}  {"resourceType": "Patient",
+          "id": "df02b0f4-db7d-45d4-aa71-0c85a1b74064",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "6",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Carr",
+              "given": [
+                "Joshua"
+              ]
+            }
+          ],
+          "birthDate": "2007-12-24"
+        }

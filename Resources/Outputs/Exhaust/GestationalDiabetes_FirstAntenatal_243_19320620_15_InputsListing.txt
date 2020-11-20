@@ -1,0 +1,44 @@
+
+timestamp: 1932_06_20
+activity_time: 1932-06-20
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 15
+   Gender: Female
+   DOB: 2007-03-12 00:00:00
+   Surname: Black
+   GivenName: Emma
+   School: Castlefields School
+   GP: Castlefields GP
+   Terminal: False
+   GestationalDiabetesStatus: FirstAntenatal
+   patient_id: ae74c87b-240b-41dd-ba73-70d5adc1e7d4
+   This: {'name': 'obese', 'value': ['414915002', 'obese'], 'date': '2035-10-29T00:00:00', 'id': UUID('c6995d0f-4b1d-4685-b6a0-249b209b2cf3')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 119, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 193, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 31.947166366882332, 'kg/m2']
+   HistoryGestationalDiabetes: ['472971004', 'History of gestational diabetes mellitus']
+   BloodGlucose: {'quantity': 4.123037751179002, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '2007-03-12T00:00:00', 'id': UUID('b4a5defd-3743-459d-8cab-f0b951e912ba')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 119, 'kg'], 'date': '2007-03-12T00:00:00', 'id': UUID('009f7443-5d48-4bce-a29e-19bd36683b1a')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 193, 'cm'], 'date': '2007-03-12T00:00:00', 'id': UUID('045778e8-2b8d-40b4-8856-f2067c6186d1')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 31.947166366882332, 'kg/m2'], 'date': '2007-03-12T00:00:00', 'id': UUID('5d490169-5199-4088-9088-0ab04d89e1af')}]
+   HistoryGestationalDiabetes: [{'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '2007-03-12T00:00:00', 'id': UUID('5881eec8-2b8e-43b0-bce3-b01a11901e5c')}]
+   BloodGlucose: [{'value': {'quantity': 4.123037751179002, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2035-10-29T00:00:00', 'id': UUID('05c96b6c-1045-4219-9a9d-3628fef016cf')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2035-10-29T00:00:00', 'id': UUID('de5a115c-10cf-48cb-b4d4-8b4d75ed227c')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '2035-10-29T00:00:00', 'id': UUID('c6995d0f-4b1d-4685-b6a0-249b209b2cf3')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '2007-03-12T00:00:00', 'id': UUID('b4a5defd-3743-459d-8cab-f0b951e912ba')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 119, 'kg'], 'date': '2007-03-12T00:00:00', 'id': UUID('009f7443-5d48-4bce-a29e-19bd36683b1a')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 193, 'cm'], 'date': '2007-03-12T00:00:00', 'id': UUID('045778e8-2b8d-40b4-8856-f2067c6186d1')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 31.947166366882332, 'kg/m2'], 'date': '2007-03-12T00:00:00', 'id': UUID('5d490169-5199-4088-9088-0ab04d89e1af')}
+   HistoryGestationalDiabetes: {'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '2007-03-12T00:00:00', 'id': UUID('5881eec8-2b8e-43b0-bce3-b01a11901e5c')}
+   BloodGlucose: {'value': {'quantity': 4.123037751179002, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2035-10-29T00:00:00', 'id': UUID('05c96b6c-1045-4219-9a9d-3628fef016cf')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2035-10-29T00:00:00', 'id': UUID('de5a115c-10cf-48cb-b4d4-8b4d75ed227c')}
+   obese: {'value': ['414915002', 'obese'], 'date': '2035-10-29T00:00:00', 'id': UUID('c6995d0f-4b1d-4685-b6a0-249b209b2cf3')}
